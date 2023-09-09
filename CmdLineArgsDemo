@@ -1,0 +1,13 @@
+//COMMAND LINE ARGUMENT
+import java.io.*;
+public class CmdLineArgsDemo {
+    public static void main (String []args) {
+        int x = Integer.parseInt(args[0]);
+        int y = Integer.parseInt(args[1]);
+        int z = x+y;
+        System.out.println("sum of" +x+ "and" + y + "is" +z);
+    }
+}
+//output
+//sum of 8 and 2 is 10 
+//sum of -8 and -2 is -10
